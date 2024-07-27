@@ -10,11 +10,11 @@ int main()
     scanf("%c", &c);
     if (c >= 'a' && c <= 'z')
     {
-        printf("%c - It's a lowercase character", c);
+        printf("%c  - It's a lowercase character - %d", c, c);
     }
     else
     {
-        printf("%c - It's NOT a lowercase character", c);
+        printf("%c - It's NOT a lowercase character - %d", c, c);
     }
     return 0;
 }
