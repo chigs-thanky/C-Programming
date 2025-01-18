@@ -6,14 +6,16 @@ int main()
     int *p, *q;
     p = &a;
     q = &b;
-    c = *p * *q;
+    // *p = &a, &b;
+    // p = (&a, &b);
+    // q = &b;
+    c = *p;
     printf("Value of a=%d\n", a);
     printf("Value of b=%d\n", b);
     printf("Value of a in hexa=%x\n", &a);
     printf("Value of a in hexa=%x\n", p);
     printf("Address of p: %x\n", &p);
     printf("Value of a=%d\n", *p);
-    *p = 13;
-    printf("Value of a(updated by pointer 'p'): %d\n", a);
-    printf("Value of C (axb) is: %d", c);
+    printf("Value of c=%d\n", c);
+    printf("Value of b using pointer: %d", *q);
 }
