@@ -7,6 +7,11 @@ int main()
 	int a;
 	printf("Enter a number: ");
 	scanf("%d", &a);
-	printf("%d\n", a%97);
-	printf("0 --> Divisible\nOtherwise non-divisible");
+	printf("Entered number is: %d\n", a);
+	if (a%97 ==0){
+		printf("%d - Divisible", a);
+	}
+	else{
+		printf("%d - Not Divisible", a);
+	}
 }
