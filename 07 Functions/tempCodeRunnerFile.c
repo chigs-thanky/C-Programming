@@ -1,4 +1,2 @@
- myName(char fName[])
-{
-    char fName[] = myName("Chigs");
-}
+bers: ");
+    // scanf("%d %d", &a, &b);
