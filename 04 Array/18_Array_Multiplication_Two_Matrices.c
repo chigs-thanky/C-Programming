@@ -52,8 +52,8 @@ int main()
         for (j = 0; j < 3; j++)
         {
             sum = a[i][j] * b[i][j];
-            printf("%d\t", c[i][j]);
         }
+        printf("%d\t", c[i][j]);
         printf("\n");
     }
     return 0;
