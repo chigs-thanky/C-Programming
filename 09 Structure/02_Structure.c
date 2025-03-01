@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-struct myStructure
-{
-    int myNum;
-    char myLetter;
-    char myString[30]; // String
-};
-
 struct myDetails
 {
     char firstName[30];
@@ -17,13 +10,10 @@ struct myDetails
 
 int main()
 {
-    struct myStructure s1;
     struct myDetails c;
     struct myDetails s;
 
     // Assign a value to the string using the strcpy function
-    strcpy(s1.myString, "Some text");
-
     strcpy(c.firstName, "Chigs");
     strcpy(c.lastName, "Thanky");
     // strcpy(c.age, 27); //Gives Error because age is not a string
