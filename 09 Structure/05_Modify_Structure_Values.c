@@ -16,8 +16,9 @@ int main()
 
     // Modify values
     s1.myLetter = 'R';
+
     // s1.myString = "Aaron";//Invalid for array
-    // Corret syntax would be as follow:
+    // Correct syntax would be as follow:
     strcpy(s1.myString, "Aaron Christian");
     s1.myNum = 12;
 
